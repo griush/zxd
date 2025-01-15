@@ -1,5 +1,10 @@
 const std = @import("std");
 
+// TODO
+// std.debug.prints -> std.log (some of them at least)
+// better error msgs
+// try to improve performance
+
 fn printHelp() void {
     std.debug.print("zxd - Zig Hex Dump\n", .{});
     std.debug.print("\nUsage: zxd <command> <args>\n", .{});
